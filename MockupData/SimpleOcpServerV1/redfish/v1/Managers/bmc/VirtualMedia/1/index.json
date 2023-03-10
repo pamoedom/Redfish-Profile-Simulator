@@ -1,0 +1,26 @@
+{
+    "@odata.id": "/redfish/v1/Managers/bmc/VirtualMedia/1",
+    "Id": "1",
+    "Actions": {
+        "#VirtualMedia.EjectMedia": {
+            "target": "/redfish/v1/Managers/bmc/VirtualMedia/1/Actions/VirtualMedia.EjectMedia"
+        },
+        "#VirtualMedia.InsertMedia": {
+            "target": "/redfish/v1/Managers/bmc/VirtualMedia/1/Actions/VirtualMedia.InsertMedia"
+        }
+    },
+    "ConnectedVia": "NotConnected",
+    "Description": "Virtual Removable Media",
+    "Image": "",
+    "ImageName": "",
+    "Inserted": false,
+    "MediaTypes": [
+        "CD",
+        "DVD"
+    ],
+    "Name": "VirtualMedia",
+    "TransferProtocolType": "",
+    "UserName": "",
+    "Password": "",
+    "WriteProtected": true
+}

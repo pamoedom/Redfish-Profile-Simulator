@@ -31,7 +31,7 @@ class RfManagerObj(RfResource):
             elif item == "SerialInterfaces":
                 self.components[item] = RfSerialInterfaceCollection(base_path, os.path.join(rel_path, item),
                                                                     parent=self)
-            elif item == "VirutalMedia":
+            elif item == "VirtualMedia":
                 self.components[item] = RfVirtualMediaCollection(base_path, os.path.join(rel_path, item), parent=self)
             elif item == "NICs":
                 self.components[item] = RfNics(base_path, os.path.join(rel_path, item), parent=self)
@@ -145,7 +145,33 @@ class RfVirtualMediaCollection(RfCollection):
 
 
 class RfVirtualMedia(RfResource):
-    pass
+    def patch_resource(self, patch_data):
+        if "Image" in patch_data and patch_data['Image']:
+            image_url = patch_data['Image']
+        else:
+            return 4, 400, "Missing mandatory value: Image", ""
+        image_name = image_url.rsplit('/', 1).pop()
+        if "TransferProtocolType" in patch_data:
+            transfer_protocol = patch_data['TransferProtocolType']
+        if "UserName" in patch_data:
+            username = patch_data['UserName']
+        if "Password" in patch_data:
+            password = patch_data['Password']
+        self.res_data['Image'] = image_url
+        self.res_data['ImageName'] = image_name
+        self.res_data['Inserted'] = "true"
+        self.res_data['TransferProtocolType'] = transfer_protocol
+        self.res_data['UserName'] = username
+        self.res_data['Password'] = password
+        return 0, 204, None, None
+    def reset_resource(self, reset_data):
+        self.res_data['Image'] = ""
+        self.res_data['ImageName'] = ""
+        self.res_data['Inserted'] = "false"
+        self.res_data['TransferProtocolType'] = ""
+        self.res_data['UserName'] = ""
+        self.res_data['Password'] = ""
+        return 0, 204, None, None
 
 
 class RfNics(RfResource):

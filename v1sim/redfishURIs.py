@@ -184,6 +184,31 @@ def rfApi_SimpleServer(root, versions, host="127.0.0.1", port=5000):
         else:
             return err_string, status_code
 
+    # rest/v1/Managers/1/VirtualMedia/
+    @app.route("/redfish/v1/Managers/<string:manager_id>/VirtualMedia/<string:vmedia_id>/Actions/VirtualMedia.InsertMedia", methods=['POST'])
+    @app.route("/redfish/v1/Managers/<string:manager_id>/VirtualMedia/<string:vmedia_id>/Actions/VirtualMedia.InsertMedia/", methods=['POST'])
+    @auth.rfAuthRequired
+    def rf_insert_vmedia(manager_id, vmedia_id):
+        rdata = request.get_json(cache=True)
+        # print("rdata:{}".format(rdata))
+        rc, status_code, err_string, resp = root.components['Managers'].get_element(manager_id).components['VirtualMedia'].get_element(vmedia_id).patch_resource(rdata)
+        if rc == 0:
+            return "", status_code
+        else:
+            return err_string, status_code
+
+    @app.route("/redfish/v1/Managers/<string:manager_id>/VirtualMedia/<string:vmedia_id>/Actions/VirtualMedia.EjectMedia", methods=['POST'])
+    @app.route("/redfish/v1/Managers/<string:manager_id>/VirtualMedia/<string:vmedia_id>/Actions/VirtualMedia.EjectMedia/", methods=['POST'])
+    @auth.rfAuthRequired
+    def rf_eject_vmedia(manager_id, vmedia_id):
+        rdata = request.get_json(cache=True)
+        # print("rdata:{}".format(rdata))
+        rc, status_code, err_string, resp = root.components['Managers'].get_element(manager_id).components['VirtualMedia'].get_element(vmedia_id).reset_resource(rdata)
+        if rc == 0:
+            return "", status_code
+        else:
+            return err_string, status_code
+
     @app.route("/redfish/v1/Managers/<string:manager_id>/EthernetInterfaces/<string:eth_id>", methods=['PATCH'])
     @app.route("/redfish/v1/Managers/<string:manager_id>/EthernetInterfaces/<string:eth_id>/", methods=['PATCH'])
     @auth.rfAuthRequired
