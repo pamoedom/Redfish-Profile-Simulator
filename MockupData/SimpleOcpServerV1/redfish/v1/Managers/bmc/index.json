@@ -46,6 +46,9 @@
         },
         "Oem": {}
     },
+    "VirtualMedia": {
+        "@odata.id": "/redfish/v1/Managers/bmc/VirtualMedia"
+    },
     "Oem": {},
     "@odata.context": "/redfish/v1/$metadata#Manager.Manager",
     "@odata.id": "/redfish/v1/Managers/bmc",
