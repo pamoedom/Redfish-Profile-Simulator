@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"0539D502\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/21",
+    "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
+    "Id": "21",
+    "Description": "MK000480GWXFF",
+    "Name": "Drive",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811",
+            "DeviceContext": "Port=2I:Box=3:Bay=7",
+            "Targets": [
+                "4d2340a5-304b-3030-3438-304757584646"
+            ]
+        }
+    },
+    "Updateable": false,
+    "Version": "HPG1"
+}

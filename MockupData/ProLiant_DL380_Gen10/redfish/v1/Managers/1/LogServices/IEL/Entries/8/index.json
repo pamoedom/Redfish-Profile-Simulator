@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"1939212D\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/8",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "8",
+    "Created": "2023-02-13T21:26:51Z",
+    "EntryType": "Oem",
+    "Message": "Server power removed.",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Maintenance",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 1,
+            "Count": 1,
+            "EventNumber": 7779,
+            "Severity": "Informational",
+            "Updated": "2023-02-13T21:26:51Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

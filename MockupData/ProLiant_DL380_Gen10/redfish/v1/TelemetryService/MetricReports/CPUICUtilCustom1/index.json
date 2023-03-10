@@ -1,0 +1,254 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReport.MetricReport",
+    "@odata.etag": "W/\"21D55655\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPUICUtilCustom1",
+    "@odata.type": "#MetricReport.v1_0_0.MetricReport",
+    "Id": "CPUICUtilCustom1",
+    "Description": "Metric report of CPU interconnect utilization for 10 minutes with sensing interval of 20 seconds.",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUICUtilCustom1"
+    },
+    "MetricValues": [
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:52:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:53:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:53:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:53:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:54:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:54:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:54:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:55:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:55:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:55:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:56:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:56:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:56:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:57:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:57:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:57:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:58:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:58:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:58:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:59:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:59:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T19:59:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T20:00:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T20:00:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T20:00:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T20:01:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T20:01:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T20:01:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T20:02:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+            },
+            "MetricId": "CPUICUtil",
+            "MetricValue": "0",
+            "Timestamp": "2023-02-16T20:02:21Z"
+        }
+    ],
+    "Name": "Metric report of CPU interconnect utilization for 10 minutes with sensing interval of 20 seconds."
+}

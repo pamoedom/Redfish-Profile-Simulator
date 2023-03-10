@@ -1,0 +1,43 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDrive.HpeSmartStorageDiskDrive",
+    "@odata.etag": "W/\"B821F76C\"",
+    "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/6",
+    "@odata.type": "#HpeSmartStorageDiskDrive.v2_1_0.HpeSmartStorageDiskDrive",
+    "Id": "6",
+    "BlockSizeBytes": 512,
+    "CapacityGB": 480,
+    "CapacityLogicalBlocks": 937703088,
+    "CapacityMiB": 457862,
+    "CarrierApplicationVersion": "11",
+    "CarrierAuthenticationStatus": "OK",
+    "CurrentTemperatureCelsius": 36,
+    "Description": "HPE Smart Storage Disk Drive View",
+    "DiskDriveStatusReasons": [
+        "None"
+    ],
+    "DiskDriveUse": "Raw",
+    "EncryptedDrive": false,
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "HPG1"
+        }
+    },
+    "InterfaceSpeedMbps": 6000,
+    "InterfaceType": "SATA",
+    "LegacyBootPriority": "Primary",
+    "Location": "2I:3:7",
+    "LocationFormat": "ControllerPort:Box:Bay",
+    "MaximumTemperatureCelsius": 42,
+    "MediaType": "SSD",
+    "Model": "MK000480GWXFF",
+    "Name": "HpeSmartStorageDiskDrive",
+    "PowerOnHours": 5437,
+    "SSDEnduranceUtilizationPercentage": 0,
+    "SerialNumber": "ESA8N5280I0508G6K",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "UncorrectedReadErrors": 0,
+    "UncorrectedWriteErrors": 0
+}

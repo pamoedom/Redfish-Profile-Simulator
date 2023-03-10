@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/7fe78820",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "7fe78820",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/SPSGen10_04.01.04.505.signed.bin",
+    "Configuration": "",
+    "Created": "2021-12-30T10:47:07Z",
+    "Criticality": "Optional",
+    "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053",
+    "ExecutionParameters": "",
+    "Filename": "SPSGen10_04.01.04.505.signed.bin",
+    "Filepath": "SPSGen10_04.01.04.505.signed.bin",
+    "Locked": true,
+    "Name": "Server Platform Services (SPS) Firmware",
+    "SizeBytes": 8391022,
+    "Targets": [
+        "a6b1a447-382a-5a4f-3c10-86800a000101"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "04.01.04.505"
+}

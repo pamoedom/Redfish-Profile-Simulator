@@ -1,0 +1,35 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkDeviceFunctions/1",
+    "@odata.type": "#NetworkDeviceFunction.v1_4_1.NetworkDeviceFunction",
+    "AssignablePhysicalPorts": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkPorts/1"
+        }
+    ],
+    "BootMode": "Disabled",
+    "DeviceEnabled": true,
+    "Ethernet": {
+        "MACAddress": "88:e9:a4:1f:8f:bb",
+        "PermanentMACAddress": "88:e9:a4:1f:8f:bb"
+    },
+    "Id": "1",
+    "Links": {
+        "PCIeFunction": {
+            "@odata.id": ""
+        },
+        "PhysicalPortAssignment": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkPorts/1"
+        }
+    },
+    "MaxVirtualFunctions": 127,
+    "Name": "NetworkDeviceFunction",
+    "Oem": {
+        "Hpe": {
+            "NetDevFuncCapabilities": [
+                "Ethernet"
+            ],
+            "NetDevFuncType": "Ethernet"
+        }
+    },
+    "VirtualFunctionsEnabled": true
+}

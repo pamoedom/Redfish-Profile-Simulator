@@ -1,0 +1,63 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapter.HpeBaseNetworkAdapter",
+    "@odata.etag": "W/\"AFCA4DB0\"",
+    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/3",
+    "@odata.type": "#HpeBaseNetworkAdapter.v2_0_0.HpeBaseNetworkAdapter",
+    "Id": "3",
+    "FcPorts": [],
+    "Firmware": {
+        "Current": {
+            "VersionString": "16.28.1002"
+        }
+    },
+    "Location": "PCI-E Slot 2",
+    "Name": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter",
+    "PartNumber": "P16004-001",
+    "PhysicalPorts": [
+        {
+            "FullDuplex": false,
+            "IPv4Addresses": [],
+            "IPv6Addresses": [],
+            "LinkStatus": null,
+            "MacAddress": "88:e9:a4:1f:8f:ba",
+            "Name": "",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0
+                }
+            },
+            "SpeedMbps": 0
+        },
+        {
+            "FullDuplex": false,
+            "IPv4Addresses": [],
+            "IPv6Addresses": [],
+            "LinkStatus": null,
+            "MacAddress": "88:e9:a4:1f:8f:bb",
+            "Name": "",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0
+                }
+            },
+            "SpeedMbps": 0
+        }
+    ],
+    "SerialNumber": "1I011100KR",
+    "Status": {
+        "Health": null,
+        "State": null
+    },
+    "StructuredName": "NIC.Slot.2.1",
+    "UEFIDevicePath": "PciRoot(0x2)/Pci(0x0,0x0)/Pci(0x0,0x0)"
+}

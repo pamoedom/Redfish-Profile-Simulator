@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "W/\"4DA55F10\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/198",
+    "@odata.type": "#PCIeDevice.v1_5_0.PCIeDevice",
+    "Id": "198",
+    "FirmwareVersion": "20.18.31",
+    "Manufacturer": "HP",
+    "Model": "629135-B22",
+    "Name": "HP Ethernet 1Gb 4-port 331FLR Adapter",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/198/PCIeFunctions"
+    },
+    "PartNumber": "629135-B22",
+    "SKU": "789897-001",
+    "SerialNumber": "VNE13206J2",
+    "Status": {
+        "Health": null,
+        "State": null
+    }
+}

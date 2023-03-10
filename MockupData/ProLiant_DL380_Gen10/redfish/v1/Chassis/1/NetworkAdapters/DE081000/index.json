@@ -1,0 +1,57 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000",
+    "@odata.type": "#NetworkAdapter.v1_4_0.NetworkAdapter",
+    "Actions": {
+        "#NetworkAdapter.ResetSettingsToDefault": {
+            "target": "%L200/Actions/NetworkAdapter.ResetSettingsToDefault",
+            "title": "Reset network adapter configuration to factory default values."
+        }
+    },
+    "Controllers": [
+        {
+            "ControllerCapabilities": {
+                "NetworkDeviceFunctionCount": 2,
+                "NetworkPortCount": 2,
+                "VirtualizationOffload": {
+                    "VirtualFunction": {
+                        "DeviceMaxCount": 254,
+                        "MinAssignmentGroupSize": 0,
+                        "NetworkPortMaxCount": 127
+                    }
+                }
+            },
+            "FirmwarePackageVersion": "16.28.1002"
+        }
+    ],
+    "Id": "DE081000",
+    "Model": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter",
+    "Name": "NetworkAdapter",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkDeviceFunctions"
+    },
+    "NetworkPorts": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkPorts"
+    },
+    "Oem": {
+        "Hpe": {
+            "Actions": {
+                "#HpeNetworkAdapter.FlushConfigurationToNVM": {
+                    "target": "%L200/Actions/Oem/Hpe/HpeNetworkAdapter.FlushConfigurationToNVM",
+                    "title": "Force a save of current network adapter configuration to non-volatile storage."
+                }
+            },
+            "Controllers": [
+                {
+                    "ConfigurationStatus": {
+                        "Summary": 0
+                    },
+                    "FactoryDefaultsCurrentlyActive": true,
+                    "UnderlyingDataSource": "RDE"
+                }
+            ],
+            "FactoryDefaultsActuationBehavior": "AtNextReboot",
+            "RedfishConfiguration": "Enabled"
+        }
+    },
+    "SerialNumber": "1I011100KR"
+}

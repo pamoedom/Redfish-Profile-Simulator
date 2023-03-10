@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/806bdd74",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "806bdd74",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/U30_2.54_09_03_2021.signed.flash",
+    "Configuration": "",
+    "Created": "2021-12-30T10:46:21Z",
+    "Criticality": "Optional",
+    "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4",
+    "ExecutionParameters": "",
+    "Filename": "U30_2.54_09_03_2021.signed.flash",
+    "Filepath": "U30_2.54_09_03_2021.signed.flash",
+    "Locked": true,
+    "Name": "System BIOS - U30",
+    "SizeBytes": 33563294,
+    "Targets": [
+        "00000000-0000-0000-0000-000000000205"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "v2.54 (09/03/2021)"
+}

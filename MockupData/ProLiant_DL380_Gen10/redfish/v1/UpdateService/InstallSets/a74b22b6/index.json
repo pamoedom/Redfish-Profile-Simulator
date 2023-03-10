@@ -1,0 +1,69 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponentInstallSet.HpeComponentInstallSet",
+    "@odata.etag": "W/\"298E1A70\"",
+    "@odata.id": "/redfish/v1/UpdateService/InstallSets/a74b22b6",
+    "@odata.type": "#HpeComponentInstallSet.v1_1_0.HpeComponentInstallSet",
+    "Id": "a74b22b6",
+    "Actions": {
+        "#HpeComponentInstallSet.Invoke": {
+            "target": "/redfish/v1/UpdateService/InstallSets/a74b22b6/Actions/HpeComponentInstallSet.Invoke"
+        }
+    },
+    "Created": "2021-12-30T10:47:21Z",
+    "Description": "Essential System Firmware Components",
+    "IsRecovery": true,
+    "Modified": "2021-12-30T10:47:21Z",
+    "Name": "System Recovery Set",
+    "Sequence": [
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/0cda9535",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "ilo5_255.bin",
+            "Name": "iLO 5",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/7fe78820",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "SPSGen10_04.01.04.505.signed.bin",
+            "Name": "Server Platform Services (SPS) Firmware",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/806bdd74",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "U30_2.54_09_03_2021.signed.flash",
+            "Name": "System BIOS - U30",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/91f9044c",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "IEGen10_0.2.2.3.signed.bin",
+            "Name": "Innovation Engine (IE) Universal Image.",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/946d50ec",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "CPLD_DL360_DL380_Gen10_VP1_v3131a_signed.vme",
+            "Name": "System Programmable Logic Device",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        }
+    ]
+}

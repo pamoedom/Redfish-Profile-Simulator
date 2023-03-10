@@ -1,0 +1,1454 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReport.MetricReport",
+    "@odata.etag": "W/\"CC2D3773\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/JitterCountCustom2",
+    "@odata.type": "#MetricReport.v1_0_0.MetricReport",
+    "Id": "JitterCountCustom2",
+    "Description": "Metric report of Jitter Count for 60 minutes with sensing interval of 20 seconds.",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom2"
+    },
+    "MetricValues": [
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1245",
+            "Timestamp": "2023-02-16T19:03:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1211",
+            "Timestamp": "2023-02-16T19:03:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1491",
+            "Timestamp": "2023-02-16T19:03:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1285",
+            "Timestamp": "2023-02-16T19:04:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1181",
+            "Timestamp": "2023-02-16T19:04:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1487",
+            "Timestamp": "2023-02-16T19:04:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1360",
+            "Timestamp": "2023-02-16T19:05:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1378",
+            "Timestamp": "2023-02-16T19:05:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1287",
+            "Timestamp": "2023-02-16T19:05:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1364",
+            "Timestamp": "2023-02-16T19:06:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1189",
+            "Timestamp": "2023-02-16T19:06:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1302",
+            "Timestamp": "2023-02-16T19:06:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1165",
+            "Timestamp": "2023-02-16T19:07:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1317",
+            "Timestamp": "2023-02-16T19:07:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1503",
+            "Timestamp": "2023-02-16T19:07:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1424",
+            "Timestamp": "2023-02-16T19:08:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1469",
+            "Timestamp": "2023-02-16T19:08:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1317",
+            "Timestamp": "2023-02-16T19:08:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1490",
+            "Timestamp": "2023-02-16T19:09:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1393",
+            "Timestamp": "2023-02-16T19:09:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1350",
+            "Timestamp": "2023-02-16T19:09:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1368",
+            "Timestamp": "2023-02-16T19:10:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1112",
+            "Timestamp": "2023-02-16T19:10:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1417",
+            "Timestamp": "2023-02-16T19:10:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1254",
+            "Timestamp": "2023-02-16T19:11:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1306",
+            "Timestamp": "2023-02-16T19:11:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1461",
+            "Timestamp": "2023-02-16T19:11:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1409",
+            "Timestamp": "2023-02-16T19:12:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1325",
+            "Timestamp": "2023-02-16T19:12:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1278",
+            "Timestamp": "2023-02-16T19:12:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1421",
+            "Timestamp": "2023-02-16T19:13:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1160",
+            "Timestamp": "2023-02-16T19:13:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1383",
+            "Timestamp": "2023-02-16T19:13:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1306",
+            "Timestamp": "2023-02-16T19:14:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1214",
+            "Timestamp": "2023-02-16T19:14:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1308",
+            "Timestamp": "2023-02-16T19:14:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1294",
+            "Timestamp": "2023-02-16T19:15:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1282",
+            "Timestamp": "2023-02-16T19:15:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1496",
+            "Timestamp": "2023-02-16T19:15:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1703",
+            "Timestamp": "2023-02-16T19:16:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1366",
+            "Timestamp": "2023-02-16T19:16:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1309",
+            "Timestamp": "2023-02-16T19:16:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1350",
+            "Timestamp": "2023-02-16T19:17:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1225",
+            "Timestamp": "2023-02-16T19:17:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1216",
+            "Timestamp": "2023-02-16T19:17:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1387",
+            "Timestamp": "2023-02-16T19:18:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1533",
+            "Timestamp": "2023-02-16T19:18:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1526",
+            "Timestamp": "2023-02-16T19:18:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1426",
+            "Timestamp": "2023-02-16T19:19:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1462",
+            "Timestamp": "2023-02-16T19:19:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1523",
+            "Timestamp": "2023-02-16T19:19:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1461",
+            "Timestamp": "2023-02-16T19:20:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1349",
+            "Timestamp": "2023-02-16T19:20:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1353",
+            "Timestamp": "2023-02-16T19:20:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1242",
+            "Timestamp": "2023-02-16T19:21:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1386",
+            "Timestamp": "2023-02-16T19:21:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1171",
+            "Timestamp": "2023-02-16T19:21:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1229",
+            "Timestamp": "2023-02-16T19:22:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1262",
+            "Timestamp": "2023-02-16T19:22:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1606",
+            "Timestamp": "2023-02-16T19:22:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1585",
+            "Timestamp": "2023-02-16T19:23:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1368",
+            "Timestamp": "2023-02-16T19:23:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1184",
+            "Timestamp": "2023-02-16T19:23:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1221",
+            "Timestamp": "2023-02-16T19:24:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1322",
+            "Timestamp": "2023-02-16T19:24:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1331",
+            "Timestamp": "2023-02-16T19:24:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1517",
+            "Timestamp": "2023-02-16T19:25:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1297",
+            "Timestamp": "2023-02-16T19:25:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1450",
+            "Timestamp": "2023-02-16T19:25:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1173",
+            "Timestamp": "2023-02-16T19:26:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1503",
+            "Timestamp": "2023-02-16T19:26:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1284",
+            "Timestamp": "2023-02-16T19:26:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1448",
+            "Timestamp": "2023-02-16T19:27:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1883",
+            "Timestamp": "2023-02-16T19:27:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1161",
+            "Timestamp": "2023-02-16T19:27:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1377",
+            "Timestamp": "2023-02-16T19:28:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1299",
+            "Timestamp": "2023-02-16T19:28:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1457",
+            "Timestamp": "2023-02-16T19:28:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1352",
+            "Timestamp": "2023-02-16T19:29:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1242",
+            "Timestamp": "2023-02-16T19:29:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1358",
+            "Timestamp": "2023-02-16T19:29:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1611",
+            "Timestamp": "2023-02-16T19:30:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1422",
+            "Timestamp": "2023-02-16T19:30:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1414",
+            "Timestamp": "2023-02-16T19:30:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1123",
+            "Timestamp": "2023-02-16T19:31:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1244",
+            "Timestamp": "2023-02-16T19:31:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1302",
+            "Timestamp": "2023-02-16T19:31:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1307",
+            "Timestamp": "2023-02-16T19:32:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1433",
+            "Timestamp": "2023-02-16T19:32:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1392",
+            "Timestamp": "2023-02-16T19:32:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1619",
+            "Timestamp": "2023-02-16T19:33:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1787",
+            "Timestamp": "2023-02-16T19:33:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1484",
+            "Timestamp": "2023-02-16T19:33:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1262",
+            "Timestamp": "2023-02-16T19:34:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1396",
+            "Timestamp": "2023-02-16T19:34:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1397",
+            "Timestamp": "2023-02-16T19:34:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1168",
+            "Timestamp": "2023-02-16T19:35:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1305",
+            "Timestamp": "2023-02-16T19:35:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1423",
+            "Timestamp": "2023-02-16T19:35:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1229",
+            "Timestamp": "2023-02-16T19:36:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1452",
+            "Timestamp": "2023-02-16T19:36:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1433",
+            "Timestamp": "2023-02-16T19:36:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1461",
+            "Timestamp": "2023-02-16T19:37:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1325",
+            "Timestamp": "2023-02-16T19:37:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1170",
+            "Timestamp": "2023-02-16T19:37:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1395",
+            "Timestamp": "2023-02-16T19:38:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1427",
+            "Timestamp": "2023-02-16T19:38:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1687",
+            "Timestamp": "2023-02-16T19:38:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1483",
+            "Timestamp": "2023-02-16T19:39:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1351",
+            "Timestamp": "2023-02-16T19:39:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1525",
+            "Timestamp": "2023-02-16T19:39:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1777",
+            "Timestamp": "2023-02-16T19:40:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1415",
+            "Timestamp": "2023-02-16T19:40:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1346",
+            "Timestamp": "2023-02-16T19:40:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1357",
+            "Timestamp": "2023-02-16T19:41:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1302",
+            "Timestamp": "2023-02-16T19:41:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1251",
+            "Timestamp": "2023-02-16T19:41:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1349",
+            "Timestamp": "2023-02-16T19:42:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1397",
+            "Timestamp": "2023-02-16T19:42:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1346",
+            "Timestamp": "2023-02-16T19:42:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1184",
+            "Timestamp": "2023-02-16T19:43:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1132",
+            "Timestamp": "2023-02-16T19:43:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1484",
+            "Timestamp": "2023-02-16T19:43:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1551",
+            "Timestamp": "2023-02-16T19:44:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1438",
+            "Timestamp": "2023-02-16T19:44:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1448",
+            "Timestamp": "2023-02-16T19:44:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1339",
+            "Timestamp": "2023-02-16T19:45:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1442",
+            "Timestamp": "2023-02-16T19:45:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1436",
+            "Timestamp": "2023-02-16T19:45:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1176",
+            "Timestamp": "2023-02-16T19:46:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1435",
+            "Timestamp": "2023-02-16T19:46:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1443",
+            "Timestamp": "2023-02-16T19:46:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1367",
+            "Timestamp": "2023-02-16T19:47:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1374",
+            "Timestamp": "2023-02-16T19:47:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1301",
+            "Timestamp": "2023-02-16T19:47:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1592",
+            "Timestamp": "2023-02-16T19:48:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1637",
+            "Timestamp": "2023-02-16T19:48:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1249",
+            "Timestamp": "2023-02-16T19:48:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1375",
+            "Timestamp": "2023-02-16T19:49:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1333",
+            "Timestamp": "2023-02-16T19:49:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1619",
+            "Timestamp": "2023-02-16T19:49:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1332",
+            "Timestamp": "2023-02-16T19:50:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1505",
+            "Timestamp": "2023-02-16T19:50:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1304",
+            "Timestamp": "2023-02-16T19:50:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1313",
+            "Timestamp": "2023-02-16T19:51:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1081",
+            "Timestamp": "2023-02-16T19:51:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1156",
+            "Timestamp": "2023-02-16T19:51:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1355",
+            "Timestamp": "2023-02-16T19:52:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1233",
+            "Timestamp": "2023-02-16T19:52:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1349",
+            "Timestamp": "2023-02-16T19:52:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1365",
+            "Timestamp": "2023-02-16T19:53:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1079",
+            "Timestamp": "2023-02-16T19:53:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1407",
+            "Timestamp": "2023-02-16T19:53:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1653",
+            "Timestamp": "2023-02-16T19:54:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1540",
+            "Timestamp": "2023-02-16T19:54:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1321",
+            "Timestamp": "2023-02-16T19:54:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1379",
+            "Timestamp": "2023-02-16T19:55:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1336",
+            "Timestamp": "2023-02-16T19:55:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1219",
+            "Timestamp": "2023-02-16T19:55:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1448",
+            "Timestamp": "2023-02-16T19:56:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1184",
+            "Timestamp": "2023-02-16T19:56:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1284",
+            "Timestamp": "2023-02-16T19:56:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1339",
+            "Timestamp": "2023-02-16T19:57:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1473",
+            "Timestamp": "2023-02-16T19:57:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1515",
+            "Timestamp": "2023-02-16T19:57:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1301",
+            "Timestamp": "2023-02-16T19:58:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1541",
+            "Timestamp": "2023-02-16T19:58:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1403",
+            "Timestamp": "2023-02-16T19:58:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1414",
+            "Timestamp": "2023-02-16T19:59:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1400",
+            "Timestamp": "2023-02-16T19:59:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1319",
+            "Timestamp": "2023-02-16T19:59:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1452",
+            "Timestamp": "2023-02-16T20:00:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1425",
+            "Timestamp": "2023-02-16T20:00:20Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1557",
+            "Timestamp": "2023-02-16T20:00:40Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1409",
+            "Timestamp": "2023-02-16T20:01:00Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1486",
+            "Timestamp": "2023-02-16T20:01:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1286",
+            "Timestamp": "2023-02-16T20:01:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1402",
+            "Timestamp": "2023-02-16T20:02:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1468",
+            "Timestamp": "2023-02-16T20:02:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "1276",
+            "Timestamp": "2023-02-16T20:02:41Z"
+        }
+    ],
+    "Name": "Metric report of Jitter Count for 60 minutes with sensing interval of 20 seconds."
+}

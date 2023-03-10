@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"395B4360\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/6",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "6",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/11"
+        }
+    ],
+    "DeviceType": "LOM/NIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "16.28.1002"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/3"
+        }
+    },
+    "Location": "PCI-E Slot 2",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "Mellanox",
+    "Name": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter",
+    "PartNumber": "P16004-001",
+    "ProductPartNumber": "P13188-B21",
+    "ProductVersion": "0A",
+    "SerialNumber": "1I011100KR",
+    "Status": {
+        "Health": null,
+        "State": null
+    }
+}

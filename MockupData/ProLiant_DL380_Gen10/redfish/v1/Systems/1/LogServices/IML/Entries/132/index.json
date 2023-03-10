@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"088C1267\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/132",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "132",
+    "Created": "2023-02-12T16:33:08Z",
+    "EntryType": "Oem",
+    "Message": "Server is operational again after thermal shutdown",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Cooling"
+            ],
+            "Class": 2,
+            "ClassDescription": "Environment",
+            "Code": 56,
+            "Count": 4,
+            "EventNumber": 13958,
+            "Severity": "Informational",
+            "Updated": "2023-02-12T16:33:42Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

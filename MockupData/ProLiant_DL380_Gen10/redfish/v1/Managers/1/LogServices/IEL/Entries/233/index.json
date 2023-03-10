@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"BD292CF7\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/233",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "233",
+    "Created": "2023-02-16T13:23:20Z",
+    "EntryType": "Oem",
+    "Message": "Power-Off signal sent to host server by: Administrator using IPMI Chassis Control Command.",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Maintenance",
+                "Administration",
+                "Power"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 140,
+            "Count": 1,
+            "EventNumber": 8004,
+            "Severity": "Caution",
+            "Updated": "2023-02-16T13:23:20Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "Warning"
+}

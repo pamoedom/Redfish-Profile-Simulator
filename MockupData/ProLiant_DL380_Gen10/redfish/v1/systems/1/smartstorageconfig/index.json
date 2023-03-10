@@ -1,0 +1,80 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_0_0.Settings",
+        "ETag": "",
+        "Messages": [
+            {
+                "MessageId": "Base.1.0.Success"
+            }
+        ],
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/systems/1/smartstorageconfig/settings/"
+        },
+        "Time": null
+    },
+    "@odata.context": "/redfish/v1/$metadata#SmartStorageConfig.SmartStorageConfig",
+    "@odata.etag": "W/\"B9F696B8B791C9C9C98B8EA046697D7F\"",
+    "@odata.id": "/redfish/v1/systems/1/smartstorageconfig/",
+    "@odata.type": "#SmartStorageConfig.v2_0_2.SmartStorageConfig",
+    "CurrentParallelSurfaceScanCount": null,
+    "DataGuard": "Strict",
+    "DegradedPerformanceOptimization": null,
+    "DriveWriteCache": "Disabled",
+    "DriveWriteCacheUnconfigured": "Default",
+    "ElevatorSort": null,
+    "EncryptionConfiguration": "None",
+    "EncryptionEULA": null,
+    "ExpandPriority": null,
+    "FlexibleLatencySchedulerSetting": null,
+    "Id": "smartstorageconfig",
+    "InconsistencyRepairPolicy": null,
+    "Location": "Slot 0",
+    "LocationFormat": "PCISlot",
+    "LogicalDrives": [],
+    "MonitorAndPerformanceAnalysisDelaySeconds": null,
+    "NoBatteryWriteCache": null,
+    "Oem": {
+        "Hpe": {
+            "@odata.type": "#HpeBiosExt.v2_0_0.HpeBiosExt",
+            "SettingsObject": {
+                "UnmodifiedETag": "W/\"576D5DAAD5146B6B6BBBB8A9F697EA7D\""
+            }
+        }
+    },
+    "PhysicalDrives": [
+        {
+            "LegacyBootPriority": "None",
+            "Location": "1I:3:1",
+            "LocationFormat": "ControllerPort:Box:Bay"
+        },
+        {
+            "LegacyBootPriority": "None",
+            "Location": "2I:3:7",
+            "LocationFormat": "ControllerPort:Box:Bay"
+        },
+        {
+            "LegacyBootPriority": "None",
+            "Location": "2I:3:8",
+            "LocationFormat": "ControllerPort:Box:Bay"
+        }
+    ],
+    "Ports": [
+        {
+            "OperatingModeAfterReboot": "Mixed",
+            "PortIndex": 0
+        },
+        {
+            "OperatingModeAfterReboot": "Mixed",
+            "PortIndex": 1
+        }
+    ],
+    "PowerModeAfterReboot": "MaxPerformance",
+    "PredictiveSpareRebuild": null,
+    "QueueDepth": null,
+    "ReadCachePercent": null,
+    "RebuildPriority": null,
+    "SurfaceScanAnalysisDelaySeconds": null,
+    "SurfaceScanAnalysisPriority": null,
+    "SurvivalPowerMode": "Enabled",
+    "WriteCacheBypassThresholdKiB": null
+}

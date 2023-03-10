@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/946d50ec",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "946d50ec",
+    "Activates": "AfterHardPowerCycle",
+    "ComponentUri": "/fwrepo/CPLD_DL360_DL380_Gen10_VP1_v3131a_signed.vme",
+    "Configuration": "",
+    "Created": "2021-12-30T10:46:26Z",
+    "Criticality": "Optional",
+    "DeviceClass": "b1ad439a-9dd1-41c1-a496-2da9313f1f07",
+    "ExecutionParameters": "",
+    "Filename": "CPLD_DL360_DL380_Gen10_VP1_v3131a_signed.vme",
+    "Filepath": "CPLD_DL360_DL380_Gen10_VP1_v3131a_signed.vme",
+    "Locked": true,
+    "Name": "System Programmable Logic Device",
+    "SizeBytes": 893648,
+    "Targets": [
+        "00000000-0000-0000-0000-000000000205",
+        "00000000-0000-0000-0000-000000000204",
+        "00000000-0000-0000-0000-000000000203"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "31"
+}

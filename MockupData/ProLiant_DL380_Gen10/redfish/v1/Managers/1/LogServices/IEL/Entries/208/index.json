@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"647198BA\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/208",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "208",
+    "Created": "2023-02-16T11:37:33Z",
+    "EntryType": "Oem",
+    "Message": "Scriptable virtual media inserted by: Administrator.",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 168,
+            "Count": 1,
+            "EventNumber": 7979,
+            "Severity": "Informational",
+            "Updated": "2023-02-16T11:37:33Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"71DAD859\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/44",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "44",
+    "Created": "2023-02-16T08:29:28Z",
+    "EntryType": "Oem",
+    "Message": "Certificate Warning: Subject (ext-pro.support.hpe.com) does not match server name (support.hpe.com).",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 20,
+            "Count": 1,
+            "EventNumber": 44,
+            "Severity": "Informational",
+            "Updated": "2023-02-16T08:29:28Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"C634F8F4\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/130",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "130",
+    "Created": "2023-02-12T16:33:00Z",
+    "EntryType": "Oem",
+    "Message": "Critical Temperature Threshold Exceeded",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Cooling"
+            ],
+            "Class": 2,
+            "ClassDescription": "Environment",
+            "Code": 39,
+            "Count": 4,
+            "EventNumber": 13956,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0027-gen10",
+            "RecommendedAction": "Be sure the fan configuration meets the functional requirements of the server. See the server documentation.",
+            "Repaired": false,
+            "Severity": "Critical",
+            "Updated": "2023-02-12T16:33:33Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Critical"
+}

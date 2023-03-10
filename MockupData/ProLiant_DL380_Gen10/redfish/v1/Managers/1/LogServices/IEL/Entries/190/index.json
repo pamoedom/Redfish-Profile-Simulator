@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"EECBDA4F\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/190",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "190",
+    "Created": "2023-02-16T08:29:28Z",
+    "EntryType": "Oem",
+    "Message": "Certificate Warning: Subject (ext-pro.support.hpe.com) does not match server name (support.hpe.com).",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 435,
+            "Count": 1,
+            "EventNumber": 7961,
+            "Severity": "Informational",
+            "Updated": "2023-02-16T08:29:28Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

@@ -1,0 +1,127 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+    "@odata.etag": "W/\"1EA434B6\"",
+    "@odata.id": "/redfish/v1/Chassis/1",
+    "@odata.type": "#Chassis.v1_11_2.Chassis",
+    "Id": "1",
+    "AssetTag": "",
+    "ChassisType": "RackMount",
+    "IndicatorLED": "Off",
+    "Links": {
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/1"
+            }
+        ],
+        "ComputerSystems": [
+            {
+                "@odata.id": "/redfish/v1/Systems/1"
+            }
+        ]
+    },
+    "Manufacturer": "HPE",
+    "Model": "ProLiant DL380 Gen10",
+    "Name": "Computer System Chassis",
+    "NetworkAdapters": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters"
+    },
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeServerChassis.HpeServerChassis",
+            "@odata.type": "#HpeServerChassis.v2_3_1.HpeServerChassis",
+            "Actions": {
+                "#HpeServerChassis.DisableMCTPOnServer": {
+                    "target": "/redfish/v1/Chassis/1/Actions/Oem/Hpe/HpeServerChassis.DisableMCTPOnServer"
+                },
+                "#HpeServerChassis.FactoryResetMCTP": {
+                    "target": "/redfish/v1/Chassis/1/Actions/Oem/Hpe/HpeServerChassis.FactoryResetMCTP"
+                }
+            },
+            "ElConfigOverride": false,
+            "Firmware": {
+                "PlatformDefinitionTable": {
+                    "Current": {
+                        "VersionString": "15.2.0 Build 51"
+                    }
+                },
+                "PowerManagementController": {
+                    "Current": {
+                        "VersionString": "1.0.7"
+                    }
+                },
+                "PowerManagementControllerBootloader": {
+                    "Current": {
+                        "Family": "25",
+                        "VersionString": "1.1"
+                    }
+                },
+                "SPSFirmwareVersionData": {
+                    "Current": {
+                        "VersionString": "4.1.4.505"
+                    }
+                },
+                "SystemProgrammableLogicDevice": {
+                    "Current": {
+                        "VersionString": "0x31"
+                    }
+                }
+            },
+            "Links": {
+                "Devices": {
+                    "@odata.id": "/redfish/v1/Chassis/1/Devices"
+                }
+            },
+            "MCTPEnabledOnServer": true,
+            "SmartStorageBattery": [
+                {
+                    "ChargeLevelPercent": 100,
+                    "FirmwareVersion": "0.70",
+                    "Index": 1,
+                    "MaximumCapWatts": 96,
+                    "Model": "875241-B21",
+                    "ProductName": "HPE Smart Storage Battery ",
+                    "RemainingChargeTimeSeconds": 0,
+                    "SerialNumber": "6WQXL0HB2FR1A3",
+                    "SparePartNumber": "878643-001",
+                    "Status": {
+                        "Health": "OK",
+                        "State": "Enabled"
+                    }
+                }
+            ],
+            "SystemMaintenanceSwitches": {
+                "Sw1": "Off",
+                "Sw10": "Off",
+                "Sw11": "Off",
+                "Sw12": "Off",
+                "Sw2": "Off",
+                "Sw3": "Off",
+                "Sw4": "Off",
+                "Sw5": "Off",
+                "Sw6": "Off",
+                "Sw7": "Off",
+                "Sw8": "Off",
+                "Sw9": "Off"
+            }
+        }
+    },
+    "PCIeDevices": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices"
+    },
+    "PCIeSlots": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeSlots"
+    },
+    "Power": {
+        "@odata.id": "/redfish/v1/Chassis/1/Power"
+    },
+    "PowerState": "On",
+    "SKU": "868703-B21",
+    "SerialNumber": "2M215200X2",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thermal": {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "W/\"A3A6BF43\"",
+    "@odata.id": "/redfish/v1/Systems/1/BootOptions/17",
+    "@odata.type": "#BootOption.v1_0_1.BootOption",
+    "Id": "17",
+    "Alias": "None",
+    "BootOptionReference": "Boot000D",
+    "DisplayName": "Embedded RAID 1 : HPE Smart Array P408i-a SR Gen10 - Size:447.131 GiB Port:2I Bay:7 Box:3",
+    "Name": "Boot Option",
+    "UefiDevicePath": "PciRoot(0x3)/Pci(0x0,0x0)/Pci(0x0,0x0)/Scsi(0x6,0x4000)"
+}

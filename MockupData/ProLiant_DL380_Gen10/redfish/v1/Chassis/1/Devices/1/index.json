@@ -1,0 +1,38 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"B016DE50\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/1",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "1",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/5"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/6"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/7"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/8"
+        }
+    ],
+    "DeviceType": "LOM/NIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "20.18.31"
+        }
+    },
+    "Location": "Embedded ALOM",
+    "Manufacturer": "HP",
+    "Name": "HP Ethernet 1Gb 4-port 331FLR Adapter",
+    "PartNumber": "789897-001",
+    "ProductPartNumber": "629135-B22",
+    "ProductVersion": "00",
+    "SerialNumber": "VNE13206J2",
+    "Status": {
+        "Health": null,
+        "State": null
+    }
+}

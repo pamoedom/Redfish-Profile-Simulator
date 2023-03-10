@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"00FEDCEF\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/33",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "33",
+    "Created": "2022-01-15T20:54:52Z",
+    "EntryType": "Oem",
+    "Message": "iLO Network configuration modified by: System Administrator.",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 19,
+            "Count": 1,
+            "EventNumber": 33,
+            "Severity": "Informational",
+            "Updated": "2022-01-15T20:54:52Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

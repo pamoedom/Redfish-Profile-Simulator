@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"F2A9F833\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/15",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "15",
+    "Created": "2023-02-14T06:35:09Z",
+    "EntryType": "Oem",
+    "Message": "Power-On signal sent to host server by: Administrator.",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Maintenance",
+                "Administration",
+                "Power"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 141,
+            "Count": 1,
+            "EventNumber": 7786,
+            "Severity": "Informational",
+            "Updated": "2023-02-14T06:35:09Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}
