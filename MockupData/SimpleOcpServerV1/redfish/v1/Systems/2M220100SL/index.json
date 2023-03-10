@@ -13,6 +13,22 @@
     "UUID": "00000000-0000-0000-0000-000000000000",
     "HostName": "catfishHostname",
     "PowerState": "On",
+    "ProcessorSummary": {
+        "Count": 2,
+        "Model": "Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz",
+        "Status": {
+            "HealthRollup": "OK"
+        }
+    },
+    "Processors": {
+        "@odata.id": "/redfish/v1/Systems/2M220100SL/Processors"
+    },
+    "SecureBoot": {
+        "@odata.id": "/redfish/v1/Systems/2M220100SL/SecureBoot"
+    },
+    "EthernetInterfaces": {
+        "@odata.id": "/redfish/v1/Systems/2M220100SL/EthernetInterfaces"
+    },
     "BiosVersion": "X00.1.2.3.4(build-23)",
     "Status": {
         "State": "Enabled",

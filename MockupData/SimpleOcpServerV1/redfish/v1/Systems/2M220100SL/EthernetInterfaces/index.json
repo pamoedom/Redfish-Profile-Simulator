@@ -1,0 +1,20 @@
+{
+    "@odata.id": "/redfish/v1/Systems/2M220100SL/EthernetInterfaces",
+    "Description": "Collection of System Ethernet Interfaces",
+    "Name": "System Ethernet Interfaces",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/2M220100SL/EthernetInterfaces/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/2M220100SL/EthernetInterfaces/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/2M220100SL/EthernetInterfaces/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/2M220100SL/EthernetInterfaces/4"
+        }
+    ],
+    "Members@odata.count": 4
+}

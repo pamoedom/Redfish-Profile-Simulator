@@ -1,0 +1,14 @@
+{
+    "@odata.id": "/redfish/v1/Systems/2M220100SL/Processors",
+    "Description": "Processors view",
+    "Name": "Processors Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/2M220100SL/Processors/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/2M220100SL/Processors/2"
+        }
+    ],
+    "Members@odata.count": 2
+}

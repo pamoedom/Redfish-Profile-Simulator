@@ -1,0 +1,13 @@
+{
+    "@odata.id": "/redfish/v1/Systems/2M220100SL/SecureBoot",
+    "Id": "SecureBoot",
+    "Actions": {
+        "#SecureBoot.ResetKeys": {
+            "target": "/redfish/v1/Systems/1/SecureBoot/Actions/SecureBoot.ResetKeys"
+        }
+    },
+    "Name": "SecureBoot",
+    "SecureBootCurrentBoot": "Disabled",
+    "SecureBootEnable": false,
+    "SecureBootMode": "UserMode"
+}

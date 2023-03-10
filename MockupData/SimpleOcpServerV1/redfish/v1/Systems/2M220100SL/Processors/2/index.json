@@ -1,0 +1,28 @@
+{
+    "@odata.id": "/redfish/v1/Systems/2M220100SL/Processors/2",
+    "Id": "2",
+    "InstructionSet": "x86-64",
+    "Manufacturer": "Intel(R) Corporation",
+    "MaxSpeedMHz": 4000,
+    "Model": "Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz",
+    "Name": "Processors",
+    "PartNumber": "",
+    "ProcessorArchitecture": "x86",
+    "ProcessorId": {
+        "EffectiveFamily": "179",
+        "EffectiveModel": "5",
+        "IdentificationRegisters": "0x06570005fbffbfeb",
+        "MicrocodeInfo": null,
+        "Step": "7",
+        "VendorId": "Intel(R) Corporation"
+    },
+    "ProcessorType": "CPU",
+    "SerialNumber": "",
+    "Socket": "Proc 2",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "TotalCores": 16,
+    "TotalThreads": 32
+}
