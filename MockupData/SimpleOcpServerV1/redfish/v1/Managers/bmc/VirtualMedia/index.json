@@ -1,10 +1,10 @@
 {
-    "@odata.id": "/redfish/v1/Managers/2M220100SL/VirtualMedia",
+    "@odata.id": "/redfish/v1/Managers/bmc/VirtualMedia",
     "Description": "Virtual Media Services Settings",
     "Name": "Virtual Media Services",
     "Members": [
         {
-            "@odata.id": "/redfish/v1/Managers/2M220100SL/VirtualMedia/1"
+            "@odata.id": "/redfish/v1/Managers/bmc/VirtualMedia/1"
         }
     ],
     "Members@odata.count": 1
