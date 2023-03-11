@@ -90,6 +90,18 @@ def rfApi_SimpleServer(root, versions, host="127.0.0.1", port=5000):
         else:
             return err_string, status_code
 
+    @app.route("/redfish/v1/Systems/<string:system_id>", methods=['PATCH'])
+    @app.route("/redfish/v1/Systems/<string:system_id>/", methods=['PATCH'])
+    @auth.rfAuthRequired
+    def rf_patch_system_entity(system_id):
+        rdata = request.get_json(cache=True)
+        # print("RRrdata:{}".format(rdata))
+        rc, status_code, err_string, resp = root.components['Systems'].get_element(system_id).patch_resource(rdata)
+        if rc == 0:
+            return "", status_code
+        else:
+            return err_string, status_code
+
     @app.route("/redfish/v1/Systems/<string:system_id>/Actions/ComputerSystem.Reset", methods=['POST'])
     @app.route("/redfish/v1/Systems/<string:system_id>/Actions/ComputerSystem.Reset/", methods=['POST'])
     @auth.rfAuthRequired
