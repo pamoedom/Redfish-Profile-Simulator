@@ -42,6 +42,7 @@
         "BootSourceOverrideTarget": "Pxe",
         "BootSourceOverrideTarget@Redfish.AllowableValues": [
             "None",
+	    "Cd",
             "Pxe",
             "Usb",
             "Hdd",
