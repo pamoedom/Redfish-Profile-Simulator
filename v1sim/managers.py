@@ -148,15 +148,21 @@ class RfVirtualMedia(RfResource):
     def patch_resource(self, patch_data):
         if "Image" in patch_data and patch_data['Image']:
             image_url = patch_data['Image']
+            image_name = image_url.rsplit('/', 1).pop()
         else:
             return 4, 400, "Missing mandatory value: Image", ""
-        image_name = image_url.rsplit('/', 1).pop()
         if "TransferProtocolType" in patch_data:
             transfer_protocol = patch_data['TransferProtocolType']
+        else:
+            transfer_protocol = ""
         if "UserName" in patch_data:
             username = patch_data['UserName']
+        else:
+            username = ""
         if "Password" in patch_data:
             password = patch_data['Password']
+        else:
+            password = ""
         self.res_data['Image'] = image_url
         self.res_data['ImageName'] = image_name
         self.res_data['Inserted'] = "true"
